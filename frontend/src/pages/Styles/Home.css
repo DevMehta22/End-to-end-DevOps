@@ -1,0 +1,43 @@
+
+.hero {
+    background-image: linear-gradient(rgba(141, 141, 141, 0.7),rgba(140, 140, 140, 0.7)),url('img.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 6rem 0;
+    
+  }
+  
+  .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: cursive;
+    font-size:large;
+    color: rgb(13, 25, 25);
+  }
+
+  .about {
+    background-color: #f9f9f9;
+    padding: 6rem 0;
+    text-align: center;
+  }
+
+  .menu {
+    background-color: #fff;
+    padding: 6rem 0;
+    text-align: center;
+  }
+
+  .specials {
+    background-color: #f9f9f9;
+    padding: 6rem 0;
+    text-align: center;
+  }
+
+  .contact {
+    background-color: #fff;
+    padding: 6rem 0;
+    text-align: center;
+  }
+ 
