@@ -14,14 +14,14 @@ const Home = () => {
         <div className="about-content">
           <h2>About Us</h2>
           <p>Discover our story, our philosophy, and what makes us unique.</p>
-          <a href="/" className="btn btn-secondary">Learn More</a>
+          <button className="btn btn-secondary">Learn More</button>
         </div>
       </section>
       <section className="contact">
         <div className="contact-content">
           <h2>Contact Us</h2>
           <p>Get in touch with us for reservations or inquiries.</p>
-          <a href="/" className="btn btn-secondary">Contact</a>
+          <button className="btn btn-secondary">Contact</button>
         </div>
       </section>
     </div>
