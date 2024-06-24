@@ -14,7 +14,7 @@ WORKDIR /app
 
 COPY --from=Builder /frontend .
 
-COPY .env.sample .env
+COPY .env.sample .env.local
 
 EXPOSE 3000
 
