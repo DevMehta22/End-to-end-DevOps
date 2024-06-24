@@ -22,7 +22,7 @@ const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:3000/api/auth/login", formData)
+      .post(`${process.env.BACKEND_URI}/api/auth/login`, formData)
       .then((response) => {
         console.log(response);
         if (response.data.user.role === "admin") {

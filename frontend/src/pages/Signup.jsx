@@ -23,8 +23,10 @@ const Signup = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    const Backend_uri = process.env.REACT_APP_BACKEND_URI
+    console.log(Backend_uri)
     axios
-      .post("http://localhost:3000/api/auth/signup", formData)
+      .post(`${Backend_uri}/api/auth/signup`, formData)
       .then((response) => {
         console.log(response);
         setsuccessMsg("Successfully Signed Up!");
