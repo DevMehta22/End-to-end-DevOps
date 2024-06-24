@@ -8,14 +8,14 @@ services:
     
   backend:
     container_name: backend
-    build: ./backend
+    build: ./Backend
     env_file:
-      - ./backend/.env
+      - ./Backend/.env
     ports:
       - "8000:8000"
     volumes:
       - logs:/app/logs
-      - ./backend:/app
+      - ./Backend:/app
       - /app/node_modules
     depends_on:
       - mongodb
